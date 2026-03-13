@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "@ajenguianis/obsidian_pm_template",
   "version": "1.0.0",
   "description": "Obsidian PM workspace template to capture client/internal requests, track follow-ups, and archive notes with a long-term searchable structure.",
@@ -26,17 +26,9 @@
   },
   "files": [
     "README.md",
-    "♻️ Templates",
-    "📊 Dashboard",
-    "🤖 Scripts",
-    "👤 Clients/.gitkeep",
-    "📌 Projects/.gitkeep",
-    "📥 Customer Demands/.gitkeep",
-    "📥 Customer Demands/📁 Requests/.gitkeep",
-    "⚙️ Internal Requests/.gitkeep",
-    "🗄️ Archive/.gitkeep",
-    "🗒️ Daily/.gitkeep",
-    "📑 Notes/.gitkeep",
-    "🎨 Excalidraw/Drawings/.gitkeep"
+    "Templates",
+    "Dashboard",
+    "Scripts",
+    ".gitkeep"
   ]
 }
