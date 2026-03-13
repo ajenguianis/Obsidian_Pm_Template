@@ -1,0 +1,42 @@
+{
+  "name": "@aajengui/obsidian-pm-template",
+  "version": "1.0.0",
+  "description": "Obsidian PM workspace template to capture client/internal requests, track follow-ups, and archive notes with a long-term searchable structure.",
+  "license": "MIT",
+  "author": "Anis AJENGUI",
+  "keywords": [
+    "obsidian",
+    "project-management",
+    "templates",
+    "templater",
+    "dataview",
+    "knowledge-management",
+    "note-taking",
+    "workflow",
+    "traceability",
+    "documentation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aajengui/obsidian-pm-template.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "files": [
+    "README.md",
+    "♻️ Templates",
+    "📊 Dashboard",
+    "🤖 Scripts",
+    "👤 Clients/.gitkeep",
+    "📌 Projects/.gitkeep",
+    "📥 Customer Demands/.gitkeep",
+    "📥 Customer Demands/📁 Requests/.gitkeep",
+    "⚙️ Internal Requests/.gitkeep",
+    "🗄️ Archive/.gitkeep",
+    "🗒️ Daily/.gitkeep",
+    "📑 Notes/.gitkeep",
+    "🎨 Excalidraw/Drawings/.gitkeep"
+  ]
+}

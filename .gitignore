@@ -69,3 +69,13 @@ Thumbs.db
 .idea/
 .vscode/
 .vccode/
+
+# =============================
+# Explicitly keep (do not ignore)
+# =============================
+!.github/
+!.github/**
+!package.json
+!.gitignore
+!README.md
+
