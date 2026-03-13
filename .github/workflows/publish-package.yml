@@ -22,10 +22,6 @@ jobs:
           registry-url: https://npm.pkg.github.com
           scope: "@aajengui"
 
-      - name: 🔐 Authenticate to GitHub Packages
-        run: |
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
-          echo "@aajengui:registry=https://npm.pkg.github.com" >> ~/.npmrc
 
       - name: 🛠️ Fix package.json warnings
         run: npm pkg fix
