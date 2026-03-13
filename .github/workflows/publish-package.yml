@@ -22,9 +22,14 @@ jobs:
           registry-url: https://npm.pkg.github.com
           scope: "@ajenguianis"
 
+      - name: 🔍 Debug package.json
+        run: cat package.json
 
-      - name: 🛠️ Fix package.json warnings
+      - name: 🛠️ Fix package.json
         run: npm pkg fix
+
+      - name: 🔍 Verify name after fix
+        run: node -e "const p=require('./package.json'); console.log('name:', p.name, 'version:', p.version);"
 
       - name: 📦 Publish to GitHub Packages
         run: npm publish --access public
