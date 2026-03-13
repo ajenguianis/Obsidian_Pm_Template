@@ -1,0 +1,22 @@
+# Notes privées
+👤 Clients/
+📌 Projects/
+📥 Customer Demands/
+⚙️ Internal Requests/
+🗒️ Daily/
+🗄️ Archive/
+📑 Notes/
+🎨 Excalidraw/Drawings/
+
+# Fichiers sensibles potentiels
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.docx
+*.xlsx
+
+# Obsidian local config (optionnel selon ton choix)
+.obsidian/workspace.json
+.obsidian/cache/
+.obsidian/plugins/
