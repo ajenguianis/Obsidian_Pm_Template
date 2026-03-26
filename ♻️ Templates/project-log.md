@@ -25,6 +25,7 @@ owner: ""
 created: "<% today %>"
 updated: "<% today %>"
 archive_path: "<% archive_path %>"
+repo_url: ""
 ---
 
 # 🚀 <% project_name %>
@@ -108,6 +109,15 @@ archive_path: "<% archive_path %>"
 - Dashboard : [[index]]
 - Demandes : [[requests-log]]
 - Décisions : [[decisions-log]]
+
+---
+
+## 🗂️ Dépôt du projet
+| Champ | Valeur |
+|-------|--------|
+| URL du dépôt | <% tp.frontmatter.repo_url %> |
+| Type | (GitHub, GitLab, Bitbucket, etc.) |
+| Branche principale | |
 
 ---
 

@@ -105,4 +105,3 @@ WHERE status != "3-resolved"
   )
 SORT next_followup_at ASC, created_at DESC
 ```
-

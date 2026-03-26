@@ -136,4 +136,3 @@ WHERE contains(tags, "request")
   )
 SORT next_followup_at ASC, received_at DESC
 ```
-

@@ -91,4 +91,3 @@ WHERE contains(tags, "request")
 GROUP BY project
 SORT length(rows) DESC
 ```
-

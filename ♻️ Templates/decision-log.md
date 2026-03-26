@@ -16,6 +16,8 @@ decided_by: "Anis AJENGUI"
 project: "<% project %>"
 impact_level: "<% await tp.system.suggester(['🔴 Critique','🟠 Élevé','🟡 Moyen','🟢 Bas'], ['critical','high','medium','low']) %>"
 related_request: ""
+external_ticket_key: ""
+external_ticket_url: ""
 ---
 
 # 🪓 Décision — <% tp.file.title %>
@@ -46,3 +48,12 @@ related_request: ""
 
 ## Lien demande client
 [[<% tp.frontmatter.related_request %>]]
+
+## 🎫 Ticket externe
+| Champ | Valeur |
+|-------|--------|
+| Clé ticket | <% tp.frontmatter.external_ticket_key %> |
+| URL | <% tp.frontmatter.external_ticket_url %> |
+| Outil | Jira |
+| Assigné à | |
+| Date de transmission | |
