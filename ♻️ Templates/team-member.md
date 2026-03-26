@@ -36,9 +36,10 @@ hard_skills: [Javascript, React, Node.js]
 soft_skills: [Communication, Esprit d'équipe, Proactivité]
 certifications: [Scrum Master, React Pro]
 souhaits_evolution: [Lead Dev, Formation DevOps]
+archive_path: "<% archive_path %>"
 ---
 
-# 👤 {{nom}}
+# 👤 <% member_name %>
 
 > **Documentation** :
 > - **feedbacks** : Liste structurée des feedbacks réguliers (date, type, auteur, contenu).
@@ -58,8 +59,8 @@ souhaits_evolution: [Lead Dev, Formation DevOps]
 - **Formation** : React avancé (prévu, échéance 2026-05-15)
 
 ## Historique management
-- 2026-03-10 : One-to-one (voir [[2026-03-10-one-to-one-{{nom}}]])
-- 2026-03-20 : Recadrage (voir [[2026-03-20-recadrage-{{nom}}]])
+- 2026-03-10 : One-to-one (voir [[2026-03-10-one-to-one-<% member_name %>]])
+- 2026-03-20 : Recadrage (voir [[2026-03-20-recadrage-<% member_name %>]])
 - 2026-03-25 : Félicitation (Sprint réussi)
 
 ## Compétences
@@ -67,3 +68,6 @@ souhaits_evolution: [Lead Dev, Formation DevOps]
 - **Soft skills** : Communication, Esprit d'équipe, Proactivité
 - **Certifications** : Scrum Master, React Pro
 - **Souhaits d’évolution** : Lead Dev, Formation DevOps
+
+## Liens utiles
+- (Ajouter ici des liens vers des notes importantes si besoin)
