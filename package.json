@@ -1,6 +1,6 @@
 ﻿{
   "name": "@ajenguianis/obsidian_pm_template",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Obsidian PM workspace template to capture client/internal requests, track follow-ups, and archive notes with a long-term searchable structure.",
   "license": "MIT",
   "author": "Anis AJENGUI",
